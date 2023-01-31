@@ -1,5 +1,5 @@
 body{
-    background-color:silver;
+    background: linear-gradient( to right,);
     text-align: center;
     font-size:15px;
     font-family:cursive;
@@ -30,6 +30,7 @@ body{
     height:70%;
     font-size:20px;
     
+    
 }
 #text_box_u,#text_box_p,#text_Newpass{ 
     border: none;
@@ -44,20 +45,22 @@ body{
     border: none;
     border-radius:5px;
     padding:10px;
-    background-color:red;
+    background-color:rgb(133, 226, 195);
     margin-top:10px;
     width:25%;
     height:10%;
     font-size:17px;
+    cursor: pointer;
 }
 #btn_forgot{
     border: none;
     border-radius:5px;
     padding:10px;
-    background-color:;
+    background-color:rgb(133, 226, 195);
     margin-top:10px;
     width:25%;
     height:15%;
     font-size:17px;
+    cursor: pointer;
 
 }
