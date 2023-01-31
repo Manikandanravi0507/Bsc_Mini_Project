@@ -1,3 +1,63 @@
 body{
+    background-color:silver;
+    text-align: center;
+    font-size:15px;
+    font-family:cursive;
+
+}
+.forgotpassword{
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    padding: 60px,40px,50px,40px;
     background-color: aqua;
+    border-radius:10px;
+    width: 30%;
+    height:40%;
+    font-size:17px;
+    
+}
+.login{
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    padding: 60px,40px,50px,40px;
+    background-color: aqua;
+    border-radius:10px;
+    width: 30%;
+    height:70%;
+    font-size:20px;
+    
+}
+#text_box_u,#text_box_p,#text_Newpass{ 
+    border: none;
+    background:transparent;
+    border-bottom: 1px solid black;
+    padding:6px;
+    margin-bottom: 2px;
+    font-size:large;
+
+}
+#btn_login{
+    border: none;
+    border-radius:5px;
+    padding:10px;
+    background-color:;
+    margin-top:10px;
+    width:25%;
+    height:10%;
+    font-size:17px;
+}
+#btn_forgot{
+    border: none;
+    border-radius:5px;
+    padding:10px;
+    background-color:;
+    margin-top:10px;
+    width:25%;
+    height:15%;
+    font-size:17px;
+
 }
