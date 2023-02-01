@@ -14,7 +14,7 @@ body{
     background-color: aqua;
     border-radius:10px;
     width: 30%;
-    height:40%;
+    height:70%;
     font-size:17px;
     
 }
@@ -32,7 +32,7 @@ body{
     
     
 }
-#text_box_u,#text_box_p,#text_Newpass{ 
+#text_box_u,#text_box_p,#text_Newpass,#text_staffdesign,#text_staffid{ 
     border: none;
     background:transparent;
     border-bottom: 1px solid black;
@@ -59,7 +59,7 @@ body{
     background-color:rgb(133, 226, 195);
     margin-top:10px;
     width:25%;
-    height:15%;
+    height:10%;
     font-size:17px;
     cursor: pointer;
 

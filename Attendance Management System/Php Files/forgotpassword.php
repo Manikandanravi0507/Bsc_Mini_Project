@@ -8,21 +8,29 @@
     <body>
         <link rel="stylesheet" href="../Style/style.css"/>
         <div class="forgotpassword">
-            <form method="post " action="login.html">
+            <form method="post " action="login.php">
          <h2 align="center">FORGOT PASSWORD</h2>
         <br><br>
                   <label for="text_Newpass">
                     New Password
-                    <br><input type="password" name="txt_box" id="text_Newpass"/>
+                    <br><input type="password" name="txt_Newpass" id="text_Newpass"/>
                  </label><br><br>
+                 <label for="text_staffid">
+                    Staff Id-Number
+                    <br><input type="textbox" name="txt_staffid" id="text_staffid"/>
+                </label><br><br>
+                <label for="text_staffdesign">
+                    Staff Designation
+                    <br><input type="textbox" name="txt_design" id="text_staffdesign"/>
+                </label><br><br>
                 <label>
                     <button name="Reset" id="btn_forgot">Reset</button>
                 </label>
-            </div>
-            <?php
-            
-            ?>
-        </form>
+             </div>
+             <?php
+             session_start();
 
-    </body>
+             ?>
+            </form>
+        </body>
 </html>

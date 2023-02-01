@@ -23,7 +23,7 @@
           Remember Me
         </label>
         <br><br>
-        <label><a href="forgotpassword.html">
+        <label><a href="forgotpassword.php">
           Forgot Password
         </label>
         <br><br>
@@ -45,7 +45,7 @@ if(isset($_POST['login'])){
     {
         echo"<script>alert('Login Successfully')</script>";
         $_Session['txt_username']=$username;
-        header('location:harish.php');
+        header('location:Home.php');
     }
     else{
         echo"<script>alert('Login Failed')</script>";
