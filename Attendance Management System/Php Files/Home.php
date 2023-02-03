@@ -17,7 +17,7 @@
 
          </div>
          <div class="imagesslide">
-            <img src="../Images/DMB.jpg" width="75%" height=75%"/>
+            <img src="../Images/DMB.jpg" width="100%" height="80%"/>
         </div>
     </body>
 </html> 
