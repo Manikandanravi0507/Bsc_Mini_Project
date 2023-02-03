@@ -44,12 +44,10 @@ if(isset($_POST['login'])){
     $result=mysqli_num_rows($res);
     if($result>0)
     {
-        echo"<script>alert('Login Successfully')</script>";
         $_Session['txt_username']=$username;
         header('location:Home.php');
     }
     else{
-        echo"<script>alert('Login Failed')</script>";
         $_Session['txt_username']=$username;
         header('location:login.php');
     }

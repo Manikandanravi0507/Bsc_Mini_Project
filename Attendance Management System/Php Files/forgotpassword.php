@@ -30,6 +30,12 @@
              </div>
              <?php
              session_start();
+             $conxn=mysqli_connect("localhost","root","","drbccchc");
+             if(isset($_POST['Reset'])){
+                $new_password=$_POST['txt_newpass'];
+                $staff_id=$_POST['txt_staffid'];
+                $staffdesign=$_POST['txt_staffdesign'];
+            }
 
              ?>
             </form>
