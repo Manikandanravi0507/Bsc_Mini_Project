@@ -7,7 +7,7 @@
 	   </title>
    </head>
    <body>
-   <div class="home">
+   <div class="home"> 
             <img src="../Images/logo.jpg"  width = "80" height = "80" align="center"/>
             Dharmamurthi Rao Bahadur Calavala Cunnan Chetty's Hindu College
             <br>
