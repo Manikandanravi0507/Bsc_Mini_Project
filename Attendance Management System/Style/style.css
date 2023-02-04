@@ -27,7 +27,7 @@ body{
     background-color: aqua;
     border-radius:10px;
     width: 30%;
-    height:60%;
+    height:70%;
     font-size:20px;
     
     
@@ -36,9 +36,9 @@ body{
     border: none;
     background:transparent;
     border-bottom: 1px solid black;
-    padding:6px;
+    padding:3px;
     margin-bottom: 2px;
-    font-size:large;
+    font-size:medium;
 
 }
 #btn_login{
@@ -64,3 +64,4 @@ body{
     cursor: pointer;
 
 }
+

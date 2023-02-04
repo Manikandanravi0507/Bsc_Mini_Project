@@ -8,6 +8,11 @@
     </head>
     <body>
         <link rel="stylesheet" href="../Style/style.css"/>
+        <div id="home"> 
+            <img src="../Images/logo.jpg"  width = "80" height = "80" align="center"/>
+            Dharmamurthi Rao Bahadur Calavala Cunnan Chetty's Hindu College
+            <br>
+        </div>
         <div class="forgotpassword">
             <form method="post " action="login.php">
          <h2 align="center">FORGOT PASSWORD</h2>

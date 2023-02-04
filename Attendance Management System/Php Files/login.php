@@ -7,7 +7,7 @@
 	   </title>
    </head>
    <body>
-   <div class="home"> 
+   <div id="home"> 
             <img src="../Images/logo.jpg"  width = "80" height = "80" align="center"/>
             Dharmamurthi Rao Bahadur Calavala Cunnan Chetty's Hindu College
             <br>
@@ -51,6 +51,7 @@ if(isset($_POST['login'])){
     {
         $_Session['txt_username']=$username;
         header('location:Home.php');
+       
     }
     else{
         $_Session['txt_username']=$username;
