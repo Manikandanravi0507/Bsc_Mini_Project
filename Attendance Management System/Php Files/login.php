@@ -64,8 +64,8 @@ if(isset($_POST['login'])){
        
     }
     else{
-        $_Session['txt_username']=$username;
-        header('location:login.php');
+      $_Session['txt_username']=$username;
+       header('location:login.php');
      
     }
 }
