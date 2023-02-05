@@ -43,8 +43,10 @@ create table rooms(room_id varchar(20) primary key,
                    room_name varchar(20));
 /*Attendance Report Calculate*/
 drop table if exists attendance_report;
-create table attendance_report(attendace_stu_id varchar(20),
+create table attendance_report(
                                attendance_staff_id varchar(20) not null,
+							   attendace_staff_name varchar(100) not null,
+							   attendace_stu_id varchar(20),
 							   attendace_stu_name varchar(50) not null,
 							   attendace_date date,
 							   attendance_session int(10),

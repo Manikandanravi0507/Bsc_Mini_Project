@@ -40,7 +40,17 @@
     
 <?php
 Session_start();
+try{
 $conxn=mysqli_connect("localhost","root","","drbccchc");
+if($conxn->connect_errno)
+{
+throw new Exception("Connection is Failed".$conxn->connect_errno);
+}
+}
+catch(Exception $e)
+{
+  echo"".$e->getMessage();
+}
 if(isset($_POST['login'])){
     $username=$_POST['txt_username'];
     $password=$_POST['txt_password'];
@@ -56,6 +66,7 @@ if(isset($_POST['login'])){
     else{
         $_Session['txt_username']=$username;
         header('location:login.php');
+     
     }
 }
 ?>
