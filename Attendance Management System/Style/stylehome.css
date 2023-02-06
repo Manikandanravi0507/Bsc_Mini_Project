@@ -1,12 +1,35 @@
-.home{
-    background-color:none;
-    font-family:cursive;
-    font-size: x-large;
-    text-align:center;
+body{
+    background-size: cover;
+    background-position:center;
+    box-sizing:border-box;
+    font-family: cursive;
+    text-align: center;
+    font-size:large ;
 }
 .container{
-    background-color:rgb(43, 218, 237);
-    font-family:cursive;
-    font-size:large;
+    background-color: aqua;
+    text-align:left
+}
+.container ul{
+    display: inline-flex;
+    list-style: none;
+}
+.container ul li{
+    width:120px;
+    margin:10px;
+    padding: 0px;
 
+}
+.container ul li a{
+    text-decoration: none;
+}
+.cont_sty, .container ul li:hover{
+    background:rgb(133, 226, 195);
+    border-radius: 3px;
+}
+.container .fa,.fa-solid{
+    margin-right: 8px;
+}
+.sub_container{
+    display: none;
 }

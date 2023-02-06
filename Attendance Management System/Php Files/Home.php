@@ -17,18 +17,23 @@
         <div class="container">
             <nav>
             <ul>
-           <li> <a href="#">Home</a></li>
-           <li><a href="#">Courses</a></li>
-               <ul>
+           <li class="cont_sty"> <a href="#"><i class="fa fa-home"></i>Home</a></li>
+           <li><a href="#"><i class="fa-solid fa-user-graduate"></i><i class="fa fa-course"></i>Courses</a></li>
+              <div class="sub_container">
+              <ul>
                 <li><a href="#">Bsc Computer Science</a></li>
                </ul>
-           <li><a href="#">Attendance</a></li>
-           <li><a href="#">Report</a></li>
-           <li> <a href="#">About us</a></li>
+               </div>
+           <li><a href="#"><i class="fa-solid fa-clipboard-user"></i>Attendance</a></li>
+           <li><a href="#"><i class="fa-solid fa-print"></i>Report</a></li>
+           <li> <a href="#"><i class="fa-solid fa-address-card"></i>About us</a></li>
             </ul>
             </nav>
 
 
+        </div>
+        <div>
+            <img src="../Images/DMB Block Entarnce.jpg" width="1090" height="420"/>
         </div>
     </body>
 </html> 
