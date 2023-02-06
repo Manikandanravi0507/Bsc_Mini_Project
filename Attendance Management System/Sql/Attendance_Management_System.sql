@@ -27,7 +27,7 @@ drop table if exists III_year;
 create table III_year(stu_id varchar(20) primary key,
                       stu_name varchar(100) not null,
 				      stu_dept varchar(50) not null,
-					  stu_accademic_year varchar(20) not null,
+					  stu_academic_year varchar(20) not null,
 					  stu_staff_id varchar(20) not null,
 					  stu_room_id varchar(20));
 /*Staff Information Table*/
@@ -36,6 +36,7 @@ create table staff_information(staff_id varchar(20) primary key,
                                staff_name varchar(100) not null,
                                staff_qualification varchar(50) not null,
                                staff_designation varchar(50) not null,
+							   staff_experience int(10),
 							   staff_room_id varchar(20));
 /*Classes Table*/
 drop table if exists rooms;

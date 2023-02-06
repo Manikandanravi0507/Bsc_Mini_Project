@@ -11,7 +11,7 @@
         <div id="home"> 
             <img src="../Images/logo.jpg"  width = "80" height = "80" align="center"/>
             Dharmamurthi Rao Bahadur Calavala Cunnan Chetty's Hindu College
-            <br>
+            <br>    
         </div>
         <div class="forgotpassword">
             <form method="post " action="login.php">
