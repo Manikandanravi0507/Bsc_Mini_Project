@@ -4,7 +4,7 @@
         <link rel="icon" type="image/x-icon" href="../Images/logo.jpg"/>
        <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
         <title>
-            DRBCCC Hindu College Home
+            DRBCCC-Hindu College Home
         </title>
     </head>
     <body>
@@ -17,23 +17,15 @@
         <div class="container">
             <nav>
             <ul>
-           <li class="cont_sty"> <a href="#"><i class="fa fa-home"></i>Home</a></li>
-           <li><a href="#"><i class="fa-solid fa-user-graduate"></i><i class="fa fa-course"></i>Courses</a></li>
-              <div class="sub_container">
-              <ul>
-                <li><a href="#">Bsc Computer Science</a></li>
-               </ul>
-               </div>
-           <li><a href="#"><i class="fa-solid fa-clipboard-user"></i>Attendance</a></li>
-           <li><a href="#"><i class="fa-solid fa-print"></i>Report</a></li>
-           <li> <a href="#"><i class="fa-solid fa-address-card"></i>About us</a></li>
+           <li class="cont_sty"> <a href="../Php Files/Home.php"><i class="fa fa-home"></i>Home</a></li>
+           <li><a href="../Php Files/Attendance.php "><i class="fa-solid fa-clipboard-user"></i>Attendance</a></li>
+           <li><a href="../Php Files/Report.php"><i class="fa-solid fa-print"></i>Report</a></li>
+           <li> <a href="../Php Files/about_us.php"><i class="fa-solid fa-address-card"></i>About us</a></li>
+           <li> <a href="../Php Files/Logout.php"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a></li>
             </ul>
             </nav>
 
 
-        </div>
-        <div>
-            <img src="../Images/DMB Block Entarnce.jpg" width="1090" height="420"/>
         </div>
     </body>
 </html> 

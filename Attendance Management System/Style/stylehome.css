@@ -6,16 +6,16 @@ body{
     text-align: center;
     font-size:large ;
 }
+
 .container{
     background-color: aqua;
-    text-align:left
 }
 .container ul{
     display: inline-flex;
     list-style: none;
 }
 .container ul li{
-    width:120px;
+    width:130px;
     margin:10px;
     padding: 0px;
 
@@ -29,7 +29,5 @@ body{
 }
 .container .fa,.fa-solid{
     margin-right: 8px;
-}
-.sub_container{
-    display: none;
+
 }

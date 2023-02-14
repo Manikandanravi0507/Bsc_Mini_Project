@@ -2,8 +2,9 @@
    <head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
      <link rel="icon" type="image/x-icon" href="../Images/logo.jpg">
+     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
    <title>
-           DRBCCC Hindu College Attendance
+           DRBCCC-Hindu College Login
 	   </title>
    </head>
    <body>
@@ -18,11 +19,11 @@
         <h2 align="center">STAFF LOGIN</h2>
         <label for="text_box_u">
         Username 
-        <br><input type="textbox" name="txt_username" id="text_box_u"/>
+        <br><input type="textbox" name="txt_username" required id="text_box_u"/>
         </label><br><br>
         <label for="text_box_p">
           Password
-          <br> <input type="password" name="txt_password" id="text_box_p"/>
+          <br> <input type="password" name="txt_password" required id="text_box_p" />
         </label><br><br>
         <label for="chk_box">
           <input type="checkbox" name="check_box" id="chk_box"/>
@@ -39,7 +40,6 @@
       </div>
     
 <?php
-Session_start();
 try{
 $conxn=mysqli_connect("localhost","root","","drbccchc");
 if($conxn->connect_errno)
@@ -61,13 +61,15 @@ if(isset($_POST['login'])){
     {
         $_Session['txt_username']=$username;
         header('location:Home.php');
+        
        
     }
     else{
-      $_Session['txt_username']=$username;
+      $_Session['txt_username']!=$username;
        header('location:login.php');
      
     }
+    mysqli_close($conxn);
 }
 ?>
 </form>
