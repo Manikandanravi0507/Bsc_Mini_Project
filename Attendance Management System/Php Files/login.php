@@ -32,9 +32,6 @@
           Remember Me
         </label>
         <br><br>
-        <label><a href="forgotpassword.php">
-          Forgot Password
-        </label>
         <br><br>
 		<label>
 		  <button id="btn_login" name="login">Login</button>
