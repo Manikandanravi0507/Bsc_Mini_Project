@@ -10,11 +10,24 @@
     </head>
     <body>
         <link rel="stylesheet" href="../Style/stylereport.css"/>
-        <div class="home">
+        <form method="post" action="Report.php">
+        <div class="Report">
+              <div class="head">
             <img src="../Images/logo.jpg"  width = "80" height = "80" align="center"/>
             Dharmamurthi Rao Bahadur Calavala Cunnan Chetty's Hindu College
             <br><br>
+            </div>
+        <div class="top">
+       </div>
+        <div class="generate">
+            <label for="from">From Date</label>
+            <input type="date" id="from" /><br><br>TO<br><br>
+            <label for="to">To Date</label>
+            <input type="date" id="to"/><br><br>
+            <button id="btn_generate" name="generate">Generatre</button>
         </div>
+        </div>
+</form>
 </body>
 </head>
-</html>
+</html> 

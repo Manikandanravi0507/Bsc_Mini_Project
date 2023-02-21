@@ -26,5 +26,8 @@
             </ul>
             </nav>
         </div>
+        <div>
+            <img src="../Images/DMB Block Entarnce.jpg"/>
+       </div>
     </body>
 </html> 

@@ -32,6 +32,10 @@
           Remember Me
         </label>
         <br><br>
+        <label><a href="#">
+          Forgot Password
+        </label>
+        <br><br>
 		<label>
 		  <button id="btn_login" name="login">Login</button>
 		</label>
