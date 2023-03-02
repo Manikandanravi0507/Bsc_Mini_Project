@@ -9,11 +9,19 @@
         </title>
     </head>
     <body>
-        <link rel="stylesheet" href="../Style/styleabout.css"/>
-        <div class="home">
+        <link rel="stylesheet" href="..Style/styleabout.css"/>
+        <div class="about_us">
             <img src="../Images/logo.jpg"  width = "80" height = "80" align="center"/>
             Dharmamurthi Rao Bahadur Calavala Cunnan Chetty's Hindu College
             <br><br>
+        </div>
+        <div class="container">
+            <nav>
+                <uL>
+                <li class="cont_sty"> <a href="../Php Files/Student_Info.php"><i class="fa fa-home"></i>Student_Info</a></li>
+                <li><a href="../Php Files/Staff_Info.php "><i class="fa-solid fa-clipboard-user"></i>Staff_Info</a></li>
+                </ul>
+            <nav>
         </div>
 </body>
 </head>

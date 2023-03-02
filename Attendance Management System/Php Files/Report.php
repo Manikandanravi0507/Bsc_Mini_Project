@@ -27,6 +27,10 @@
             <button id="btn_generate" name="generate">Generatre</button>
         </div>
         </div>
+        <?php
+        
+
+        ?>
 </form>
 </body>
 </head>

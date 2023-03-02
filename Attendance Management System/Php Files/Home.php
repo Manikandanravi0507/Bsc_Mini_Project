@@ -18,11 +18,11 @@
         <div class="container">
             <nav>
             <ul>
-           <li class="cont_sty"> <a href="../Php Files/Home.php"><i class="fa fa-home"></i>Home</a></li>
-           <li><a href="../Php Files/Attendance.php "><i class="fa-solid fa-clipboard-user"></i>Attendance</a></li>
-           <li><a href="../Php Files/Report.php"><i class="fa-solid fa-print"></i>Report</a></li>
-           <li> <a href="../Php Files/about_us.php"><i class="fa-solid fa-address-card"></i>About us</a></li>
-           <li> <a href="../Php Files/Logout.php"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a></li>
+            <li class="cont_sty"> <a href="../Php Files/Home.php"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="../Php Files/Attendance.php "><i class="fa-solid fa-clipboard-user"></i>Attendance</a></li>
+            <li><a href="../Php Files/Report.php"><i class="fa-solid fa-print"></i>Report</a></li>
+            <li> <a href="../Php Files/about_us.php"><i class="fa-solid fa-address-card"></i>About us</a></li>
+            <li> <a href="../Php Files/Logout.php"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a></li>
             </ul>
             </nav>
         </div>
