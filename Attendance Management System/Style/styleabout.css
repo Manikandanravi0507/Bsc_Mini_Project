@@ -3,31 +3,8 @@ body{
     background-position:center;
     box-sizing:border-box;
     font-family: cursive;
-    text-align: center;
     font-size:large ;
 }
-
-.container{
-    background-color: aqua;
-}
-.container ul{
-    display: inline-flex;
-    list-style: none;
-}
-.container ul li{
-    width:130px;
-    margin:10px;
-    padding: 0px;
-
-}
-.container ul li a{
-    text-decoration: none;
-}
-.cont_sty, .container ul li:hover{
-    background:rgb(133, 226, 195);
-    border-radius: 3px;
-}
-.container .fa,.fa-solid{
-    margin-right: 8px;
-
+.about_us{
+    text-align:center;
 }

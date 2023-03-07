@@ -9,7 +9,7 @@
         </title>
     </head>
     <body>
-        <link rel="stylesheet" href="..Style/stylehome.css"/>
+        <link rel="stylesheet" href="../Style/styleabout.css"/>
         <div class="about_us">
             <img src="../Images/logo.jpg"  width = "80" height = "80" align="center"/>
             Dharmamurthi Rao Bahadur Calavala Cunnan Chetty's Hindu College
@@ -22,6 +22,8 @@
                 <li><a href="../Php Files/Staff_Info.php "><i class="fa-solid fa-person-cane"></i>Staff_Info</a></li>
                 </ul>
             <nav>
+        </div>
+        <div class="college">   
         </div>
 </body>
 </html>
