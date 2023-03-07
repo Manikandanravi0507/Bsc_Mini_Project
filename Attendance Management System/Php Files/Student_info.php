@@ -17,7 +17,7 @@
             <div class="about-section">
   <h1>Student Information</h1>
 </div>
-
+<h1>Our Team Members</h1>
 <div class="column">
     <div class="card">
       <img src="../Images/" style="width:100%">
@@ -34,10 +34,9 @@
       </div>
     </div>
   </div>
-
   <div class="column">
     <div class="card">
-      <img src="../Images/Manikandan.jpg" style="width:100%">
+      <img src="../Images/R.manikandan.jpg" style="width:100%">
       <div class="container">
         <h2>R.Manikandan</h2>
         <h2>20CS122</h2>
